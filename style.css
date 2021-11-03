@@ -66,3 +66,15 @@
     text-align: justify;
     margin-right: 10px;
 }
+#main #content #content_left p:hover{
+    background-color: rgb(195, 230, 200);
+    transition: all ease-in-out 0.1s;
+}
+#main #content #content_left h2:hover{
+    font-style: italic;
+    transition: all ease-in-out 0.3s;
+}
+#main #content #content_right h2:hover {
+    padding-left: 15px;
+    transition: all ease-in-out 0.3s;
+}
