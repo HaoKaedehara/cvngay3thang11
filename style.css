@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    background-color: rgb(192, 227, 194);
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    max-width: 800px;
+    height: 1280px;
+    /* display: flex; */
+}
+#main-item{
+    margin: auto;
+}
+ #main #top{
+    height: 160px;
+    width: 800px;
+    display: flex;
+}
+#main #top #top_photo{
+    margin-top: 5px;
+    flex: 1;
+}   
+#main #top #top_photo #top_photo_css{
+    margin: auto;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#main #top #top_content{
+    flex: 2;
+    color: white;
+    background-image: url(https://1.bp.blogspot.com/-ImER2j5nhBo/XYObvnpgpGI/AAAAAAAAL8g/rZk_czUTyN4t787xDq8FypK35h33Uwa7gCLcBGAsYHQ/s1600/vi-sao-nhat-ban-duoc-goi-la-dat-nuoc-mat-troi-moc-bb-baaad1JByu.jpg);
+    background-repeat: none;
+    background-size:cover;
+    padding-left: 20px;
+    margin-right: 50px;
+    user-select: none;
+}
+#main #content {
+    margin: 12px auto 48px auto;
+    padding: 32px 0;
+    max-width: 740px;
+    min-height: 360px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#main #content #content_left p{
+    padding-top: 10px;
+    text-indent: 20px;
+}
+#main #content #content_right {
+    background-color: rgb(165, 165, 165);
+    padding: 12px 15px;
+    text-align: justify;
+    height: fit-content;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#main #content #content_left {
+    padding: 12px 15px;
+    text-align: justify;
+    margin-right: 10px;
+}
